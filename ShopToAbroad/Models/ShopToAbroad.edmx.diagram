@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2af0ddb7e69c4fbea106795d04cf0249" Name="Diagram1" ZoomLevel="64">
+        <EntityTypeShape EntityType="ShopToAbroadModel.admin_Employee" Width="1.5" PointX="7.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopToAbroadModel.admin_Login" Width="1.5" PointX="10" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopToAbroadModel.Category" Width="1.5" PointX="0.75" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopToAbroadModel.Customer" Width="1.5" PointX="5.25" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopToAbroadModel.genMainSlider" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopToAbroadModel.genPromoRight" Width="1.5" PointX="3" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopToAbroadModel.Order" Width="1.5" PointX="5.25" PointY="25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopToAbroadModel.OrderDetail" Width="1.5" PointX="7.5" PointY="15" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopToAbroadModel.Payment" Width="1.5" PointX="3" PointY="24.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopToAbroadModel.PaymentType" Width="1.5" PointX="0.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopToAbroadModel.Product" Width="1.5" PointX="5.25" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopToAbroadModel.RecentlyView" Width="1.5" PointX="10.5" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopToAbroadModel.Review" Width="1.5" PointX="7.5" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopToAbroadModel.Role" Width="1.5" PointX="7.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopToAbroadModel.ShippingDetail" Width="1.5" PointX="3" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopToAbroadModel.SubCategory" Width="1.5" PointX="3" PointY="20" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopToAbroadModel.Supplier" Width="1.5" PointX="3" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopToAbroadModel.Wishlist" Width="1.5" PointX="10.5" PointY="12.5" IsExpanded="true" />
+        <AssociationConnector Association="ShopToAbroadModel.FK_admin_Login_admin_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopToAbroadModel.FK_admin_Login_Roles" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopToAbroadModel.FK_genPromoRight_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopToAbroadModel.FK_Products_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopToAbroadModel.FK_SubCategory_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopToAbroadModel.FK_Order_Customers" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopToAbroadModel.FK_RecentlyViews_Customers" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopToAbroadModel.FK_Review_Customers" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopToAbroadModel.FK_Wishlist_Customers" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopToAbroadModel.FK_Order_Payment" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopToAbroadModel.FK_Order_ShippingDetails" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopToAbroadModel.FK_OrderDetails_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopToAbroadModel.FK_OrderDetails_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopToAbroadModel.FK_Payment_PaymentType" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopToAbroadModel.FK_Products_SubCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopToAbroadModel.FK_Products_Suppliers" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopToAbroadModel.FK_RecentlyViews_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopToAbroadModel.FK_Review_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopToAbroadModel.FK_Wishlist_Products" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
